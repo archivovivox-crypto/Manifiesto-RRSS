@@ -1,0 +1,166 @@
+/* Paleta de colores */
+:root {
+  --primary: #2c3e50;     /* Azul oscuro */
+  --secondary: #e74c3c;   /* Rojo vibrante */
+  --accent: #f39c12;      /* Naranja cálido */
+  --light: #ecf0f1;       /* Gris claro */
+  --dark: #1a1a1a;        /* Negro suave */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: var(--dark);
+  background-color: var(--light);
+}
+
+header {
+  background-color: var(--primary);
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 2rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  color: var(--accent);
+}
+
+main {
+  padding: 2rem 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hero h1 {
+  color: var(--primary);
+  font-size: 2.2rem;
+}
+
+.hero p {
+  color: var(--secondary);
+  font-style: italic;
+}
+
+.manifesto h2 {
+  margin: 1.5rem 0 0.8rem;
+  color: var(--primary);
+}
+
+.manifesto p, .manifesto ul, .manifesto ol {
+  margin-bottom: 1rem;
+}
+
+.video {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.video iframe {
+  max-width: 600px;
+  aspect-ratio: 16/9;
+}
+
+.apa-ref {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  color: #555;
+}
+
+.form-section {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-section h1 {
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.form-section p {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin: 1rem 0 0.5rem;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+button {
+  background-color: var(--secondary);
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: #c0392b;
+}
+
+.privacy-note {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-left: 4px solid var(--accent);
+  font-size: 0.9rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: var(--primary);
+  color: white;
+  margin-top: 2rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  main {
+    padding: 1rem;
+  }
+}
