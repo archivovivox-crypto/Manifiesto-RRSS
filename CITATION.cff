@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Si usas este manifiesto en tu trabajo académico o activismo digital, por favor, cita esta fuente."
+authors:
+  - name: ArchivoVivoX
+    alias: archivovivox
+    email: archivovivox@gmail.com
+title: "Manifiesto RRSS — @ArchivoVivoX"
+version: 1.0.0
+date-released: 2025-10-20
+license: CC0-1.0
+repository-code: https://github.com/archivovivox-crypto/Manifiesto-RRSS
+url: https://github.com/archivovivox-crypto/Manifiesto-RRSS
+keywords:
+  - manifiesto
+  - redes sociales
+  - ética digital
+  - justicia social
+  - memoria viva
+  - activismo digital
+  - inclusión
+abstract: "Documento fundacional que define la misión, visión, valores y objetivos del proyecto @ArchivoVivoX en redes sociales (X, Instagram, TikTok). Inspirado en la resistencia, la diversidad y el pensamiento crítico."
