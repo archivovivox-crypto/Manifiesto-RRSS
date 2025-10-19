@@ -1,0 +1,33 @@
+{
+  "name": "Manifiesto RRSS - @ArchivoVivoX",
+  "description": "Manifiesto ético y político para el uso de redes sociales con enfoque en memoria, justicia, diversidad y resistencia digital.",
+  "version": "1.0.0",
+  "author": {
+    "name": "@ArchivoVivoX",
+    "contact": "archivovivox@gmail.com"
+  },
+  "license": "CC0-1.0",
+  "repository": "https://github.com/archivovivox-crypto/Manifiesto-RRSS",
+  "created": "2025-10-20",
+  "keywords": [
+    "manifiesto",
+    "redes sociales",
+    "ética digital",
+    "derechos humanos",
+    "inclusión",
+    "memoria histórica",
+    "activismo",
+    "LGBTQ+",
+    "descolonización digital"
+  ],
+  "inspirational_video": {
+    "title": "Nach - Destino (Video Oficial)",
+    "author": "Nach",
+    "date_published": "2025-09-22",
+    "platform": "YouTube",
+    "url": "http://www.youtube.com/watch?v=pl9LbZ0hOyI",
+    "apa_citation": "Nach. (22 de septiembre de 2025). Nach - Destino (Video Oficial) [Video]. YouTube. http://www.youtube.com/watch?v=pl9LbZ0hOyI"
+  },
+  "platforms": ["X (Twitter)", "Instagram", "TikTok"],
+  "privacy_policy": "No se recolectan ni almacenan datos personales. El proyecto respeta la privacidad y autonomía de sus usuarios."
+}
