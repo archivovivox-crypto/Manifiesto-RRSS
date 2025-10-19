@@ -1,0 +1,18 @@
+# Entornos locales
+.DS_Store
+Thumbs.db
+
+# IDE / editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Sistema operativo
+desktop.ini
+
+# Archivos temporales
+*~
