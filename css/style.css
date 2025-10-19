@@ -84,9 +84,17 @@ main {
 }
 
 .apa-ref {
-  font-size: 0.9rem;
-  margin-top: 0.5rem;
-  color: #555;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-left: 4px solid var(--accent);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+.apa-ref strong {
+  color: var(--primary);
 }
 
 .form-section {
