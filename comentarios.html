@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Enviar Comentarios - @ArchivoVivoX</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="comentarios.html">Enviar Comentarios</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="form-section">
+      <h1>Enviar Comentarios</h1>
+      <p>¡Tu voz importa! Envíanos tus reflexiones, sugerencias o críticas constructivas.  
+        <strong>No se tolera lenguaje ofensivo, discriminatorio o violento.</strong></p>
+
+      <form id="commentForm" action="mailto:archivovivox@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="nombre" required />
+
+        <label for="comments">Comentarios (máx. 500 palabras):</label>
+        <textarea id="comments" name="comentarios" rows="8" maxlength="3000" placeholder="Escribe aquí tu mensaje..." required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+
+      <div class="privacy-note">
+        <p><em>Nota de privacidad:</em> No recolectamos datos personales ni cedemos información a terceros. Este formulario envía un correo directo a archivovivox@gmail.com.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 @ArchivoVivoX — Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
